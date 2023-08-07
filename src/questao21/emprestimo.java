@@ -14,19 +14,22 @@ public class emprestimo {
                 """);
         int cargo = leitura.nextInt();
 
-        System.out.println("Tudo certo! Agora por favor, digite qual o seu salário.");
-        double salario = leitura.nextDouble();
 
-        if (cargo == 1) {
-            double empDir = salario * 0.3;
-            System.out.println("O valor de empréstimo disponível é de: R$" + empDir);
-        } else if (cargo == 2) {
-            double empGer = salario * 0.25;
-            System.out.println("O valor de empréstimo disponível é de: R$" + empGer);
-        }
-        else if (cargo == 3) {
-            double empOpe = salario * 0.2;
-            System.out.println("O valor de empréstimo disponível é de: R$" + empOpe);
+
+        if (cargo >= 1 && cargo <=3) {
+            System.out.println("Tudo certo! Agora por favor, digite qual o seu salário.");
+            double salario = leitura.nextDouble();
+
+            if (cargo == 1) {
+                double empDir = salario * 0.3;
+                System.out.println("O valor de empréstimo disponível é de: R$" + empDir);
+            } else if (cargo == 2) {
+                double empGer = salario * 0.25;
+                System.out.println("O valor de empréstimo disponível é de: R$" + empGer);
+            } else if (cargo == 3) {
+                double empOpe = salario * 0.2;
+                System.out.println("O valor de empréstimo disponível é de: R$" + empOpe);
+            }
         }
         else {
             System.out.println("Código inválido.");
