@@ -11,7 +11,7 @@ public class VerificacaoVoto {
 
         if (idade < 16) {
             System.out.println("Você não pode votar.");
-        } else if (idade >= 16 && idade <= 65) {
+        } else if (idade >= 16 && idade < 18 || idade >= 65) {
             System.out.println("O voto é facultativo.");
         } else {
             System.out.println("O voto é obrigatório.");
