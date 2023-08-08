@@ -13,8 +13,8 @@ public class TurmaFaculdade {
 
         int totalAlunos = homens + mulheres;
 
-        Double percentualHomens = (double) homens / totalAlunos * 100;
-        Double percentualMulheres = (double) mulheres / totalAlunos * 100;
+        double percentualHomens = (double) homens / totalAlunos * 100;
+        double percentualMulheres = (double) mulheres / totalAlunos * 100;
 
         System.out.printf("Percentual de homens: %.2f%%\n", percentualHomens);
         System.out.printf("Percentual de mulheres: %.2f%%\n", percentualMulheres);
