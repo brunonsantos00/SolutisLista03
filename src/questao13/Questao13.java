@@ -22,8 +22,8 @@ public class Questao13 {
             System.out.print("Digite a nota da prova final: ");
             double notaFinal = sc.nextDouble();
 
-            double mediaFinal = (media + notaFinal) / 2;
-            if (mediaFinal >= 5.0) {
+            
+            if (notaFinal >= 5.0) {
                 System.out.println("Aprovado após a prova final!");
             } else {
                 System.out.println("Reprovado após a prova final!");
