@@ -7,18 +7,18 @@ public class MediaAluno {
         Scanner entrada = new Scanner(System.in);
 
         System.out.print("Digite a primeira nota: ");
-        Double nota1 = entrada.nextDouble();
+        double nota1 = entrada.nextDouble();
 
         System.out.print("Digite a segunda nota: ");
-        Double nota2 = entrada.nextDouble();
+        double nota2 = entrada.nextDouble();
 
         System.out.print("Digite a terceira nota: ");
-        Double nota3 = entrada.nextDouble();
+        double nota3 = entrada.nextDouble();
 
         System.out.print("Digite a quarta nota: ");
-        Double nota4 = entrada.nextDouble();
+        double nota4 = entrada.nextDouble();
 
-        Double media = (nota1 + nota2 + nota3 + nota4) / 4;
+        double media = (nota1 + nota2 + nota3 + nota4) / 4;
 
         System.out.printf("A média do aluno é %.2f\n", media);
     }
