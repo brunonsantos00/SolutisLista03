@@ -1,4 +1,4 @@
-package questao6;
+package questao06;
 
 public class AreaCirculo {
         public static void main(String[] args) {

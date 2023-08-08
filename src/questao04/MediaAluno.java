@@ -1,3 +1,4 @@
+package questao04;
 import java.util.Scanner;
 
 public class MediaAluno {

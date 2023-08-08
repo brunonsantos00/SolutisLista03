@@ -1,3 +1,5 @@
+package questao11;
+
 import java.util.Scanner;
 
 public class VerificacaoVoto {
